@@ -1,1 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--<link rel="stylesheet" href="css/estilo.css">-->
+	<title>Significado das medalhas</title>
 
+	<style>
+		
+		* {
+  			box-sizing: border-box;
+		}
+
+		h1{
+			text-align: center;
+
+		}
+
+		h2{
+			border: 2px solid black;
+			width: 40%;
+			height: 30px;
+			margin-left: auto;
+			margin-top: 0px;
+			font-family: Helvetica;
+			color: white;
+			text-align: center;
+		
+		}
+
+		.ouro{
+			background-color: #FFD700;
+			color: black;
+		}
+		.prata{
+			background-color: #C0C0C0;
+		}
+		.bronze{
+			background-color: #CD853F;
+		}
+
+		p {
+			width: 92%;
+			height: 180px;
+			margin-right: auto;
+			margin-left: auto;
+			font-family: Helvetica;
+			color: black;
+			
+		}
+
+		/* Simple Responsive Framework. */
+			.row {
+			  width: 100%;
+		}
+
+		/********** Large devices only **********/
+		@media (min-width: 992px) {
+		  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+		    float: left;
+		    border: 2px solid black;
+		    margin: 20px;
+		    background-color: grey;
+		    height: 400px;
+		   
+		  }
+		  .col-lg-1 {
+		    width: 8.33%;
+		  }
+		  .col-lg-2 {
+		    width: 16.66%;
+		  }
+		  .col-lg-3 {
+		    width: 25%;
+		  }
+		  .col-lg-4 {
+		    width: 33.33%;
+		  }
+		  .col-lg-5 {
+		    width: 41.66%;
+		  }
+		  .col-lg-6 {
+		    width: 50%;
+		  }
+		  .col-lg-7 {
+		    width: 58.33%;
+		  }
+		  .col-lg-8 {
+		    width: 66.66%;
+		  }
+		  .col-lg-9 {
+		    width: 74.99%;
+		  }
+		  .col-lg-10 {
+		    width: 83.33%;
+		  }
+		  .col-lg-11 {
+		    width: 91.66%;
+		  }
+		  .col-lg-12 {
+		    width: 100%;
+		  }
+		}
+
+/********** Medium devices only **********/
+		@media (min-width: 768px) and (max-width: 991px) {
+		  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+		    float: left;
+		    border: 2px solid black;
+		    margin: 20px;
+		    background-color: grey;
+		    height: 305px;
+
+		  }
+		  .col-md-1 {
+		    width: 8.33%;
+		  }
+		  .col-md-2 {
+		    width: 16.66%;
+		  }
+		  .col-md-3 {
+		    width: 25%;
+		  }
+		  .col-md-4 {
+		    width: 33.33%;
+		  }
+		  .col-md-5 {
+		    width: 41.66%;
+		  }
+		  .col-md-6 {
+		    width: 50%;
+		  }
+		  .col-md-7 {
+		    width: 58.33%;
+		  }
+		  .col-md-8 {
+		    width: 66.66%;
+		  }
+		  .col-md-9 {
+		    width: 74.99%;
+		  }
+		  .col-md-10 {
+		    width: 83.33%;
+		  }
+		  .col-md-11 {
+		    width: 91.66%;
+		  }
+		  .col-md-12 {
+		    width: 100%;
+		  }
+		}
+
+		/********** Pequenos aparelhos only **********/
+		@media (max-width: 767px) {
+		  .col-pq-1, .col-pq-2, .col-pq-3, .col-pq-4, .col-pq-5, .col-pq-6, .col-pq-7, .col-pq-8, .col-pq-9, .col-pq-10, .col-pq-11, .col-pq-12 {
+		    float: left;
+		    border: 2px solid black;
+		    margin: 20px;
+		    background-color: grey;
+		  }
+		  .col-pq-1 {
+		    width: 8.33%;
+		  }
+		  .col-pq-2 {
+		    width: 16.66%;
+		  }
+		  .col-pq-3 {
+		    width: 25%;
+		  }
+		  .col-pq-4 {
+		    width: 33.33%;
+		  }
+		  .col-pq-5 {
+		    width: 41.66%;
+		  }
+		  .col-pq-6 {
+		    width: 50%;
+		  }
+		  .col-pq-7 {
+		    width: 58.33%;
+		  }
+		  .col-pq-8 {
+		    width: 66.66%;
+		  }
+		  .col-pq-9 {
+		    width: 74.99%;
+		  }
+		  .col-pq-10 {
+		    width: 83.33%;
+		  }
+		  .col-pq-11 {
+		    width: 91.66%;
+		  }
+		  .col-pq-12 {
+		    width: 100%;
+		  }
+		}
+
+	</style>
+</head>
+
+<body>
+
+<h1>Significado das medalhas</h1>
+
+<div class='row'>
+<div class="col-lg-3 col-md-5 col-pq-11">
+<h2 class="ouro">Ouro</h2>
+<p>Medalha de ouro é uma medalha concedida pelas mais altas conquistas em atividades não militares. Seu nome vem do uso nela de ao menos uma fração de ouro em forma de liga metálica ou chapeamento. 
+Desde o século XVIII medalhas de ouro tem sido agraciadas nas artes, como, por exemplo, a Real Academia Dinamarquesa de Ciências, que as concedia geralmente como um símbolo de um prêmio para dar a um estudante excepcional apquma liberdade financeira.</p>
+</div>
+
+<div class="col-lg-3 col-md-5 col-pq-11">
+<h2 class="prata">Prata</h2>
+<p>A medalha de prata é uma medalha costumeiramente entregue aos participantes que terminam suas provas em segundo lugar em competições atléticas como os Jogos Olímpicos, os Jogos Panamericanos, entre outros.
+Até 1904 eram entregues somente a medalha de prata e de ouro. Após os Jogos Olímpicos de Verão de 1904, disputados na cidade norte-americana de St. Louis, foi criada a medalha de bronze.</p>
+</div>
+
+<div class="col-lg-3 col-md-11 col-pq-11">
+<h2 class="bronze">Bronze</h2>
+<p>A medalha de bronze é uma medalha costumeiramente entregue aos participantes que terminam suas provas em terceiro lugar em competições atléticas como os Jogos Olímpicos e os Jogos Pan-Americanos, entre outros.
+A prática de conceder medalhas feitas de bronze aos terceiros lugares se iniciou nos Jogos Olímpicos de Verão de 1904, disputados na cidade norte-americana de Saint Louis; anteriormente apenas o primeiro (medalha de ouro) e o segundo lugar (medalha de prata) eram premiados.</p>
+</div>
+</div>
+
+</body>
+</html>
